@@ -43,7 +43,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('rugged', '~> 0.24', '>= 0.23.0')
   s.add_runtime_dependency('thor', '~> 0.19.0')
   s.add_runtime_dependency('octokit', '~> 4.3', '>= 4.1.0')
-  s.add_runtime_dependency('gitlab', '~> 3.6', '>= 3.4.0')
+  s.add_runtime_dependency('gitlab', '>= 3.6', '< 5.0')
   s.add_runtime_dependency('httparty', '~> 0.13.7')
   s.add_runtime_dependency('rainbow', '~> 2.1')
   s.add_development_dependency('rake', '~> 11.0')
