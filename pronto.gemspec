@@ -50,7 +50,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rspec', '~> 3.4')
   s.add_development_dependency('rspec-its', '~> 1.2')
   s.add_development_dependency('rspec-expectations', '~> 3.4')
-  s.add_development_dependency('bundler', '~> 1.3')
+  s.add_development_dependency('bundler', '~> 2.2')
   s.add_development_dependency('simplecov', '~> 0.11')
   s.add_development_dependency('rubocop', '~> 0.42')
   s.add_development_dependency('pronto-rubocop', '~> 0.7.0')
